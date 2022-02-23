@@ -19,3 +19,48 @@
 
    /* position: absolute;
     left: 50px; */
+/* navigation starts here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row6{
+    background-image: url(https://www.spacex.com/static/images/backgrounds-2021/hls-resized-2.webp);
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    background-color:  black;
+    height: 100px;
+   
+}
+a{
+    color: white;
+    margin: 40px 20px;
+}
+
+
+
+
+
