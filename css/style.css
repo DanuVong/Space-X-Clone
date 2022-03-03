@@ -27,7 +27,7 @@ body {
   }
 .svg {
   height:3rem;
-  color: white;
+  fill: white;
 }
   .header {
     background: transparent;
@@ -70,7 +70,17 @@ ul {
   color: black;
 }
 
+.text-container {
+  display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: center;
+ position: relative;
+ left: 20%;
+}
+
 .row2{
+  display: flex;
   background-image: url('https://www.spacex.com/static/images/backgrounds-2022/starship-update/S20_Chopstick_Stack_Desktop.webp');
   height: 100vh;
   background-size:cover;
@@ -79,20 +89,12 @@ ul {
 }
    
 .row3{
+  display: flex;
   background-image: url('https://www.spacex.com/static/images/backgrounds-2022/sl4-7/post-launch/Homepage_Star4-7_DSC_9788_Desktop.webp');
   height: 100vh;
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center top;
-}
-
-.text-container {
- flex-direction: column;
- align-items: flex-start;
- justify-content: flex-start;
- position: relative;
- top: 50%;
- left: 20%;
 }
 
 .row4{
@@ -106,6 +108,7 @@ ul {
 }
 
 .row5{
+  display: flex;
   background-image: url(https://www.spacex.com/static/images/backgrounds-2022/cosmo-skymed/post-launch/DESKTOP_COSMO_HOMEPAGE.webp);
   height: 100vh;
   background-size:cover;
@@ -115,6 +118,7 @@ ul {
 
 
 .row6{
+  display: flex;
   color:white;
   background-image: url(https://www.spacex.com/static/images/backgrounds-2021/hls-resized-2.webp);
   height: 100vh;
